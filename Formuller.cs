@@ -21,8 +21,8 @@ public static double UstAlma (double taban, double kuvvet)
 /// </summary>
 /// <param name="n">Sayıyı temsil eder</param>
 /// <returns>Asal carpanlar dizisidir</returns>
-public static int [] AsalCarpanlar(int n)
-{
+    public static int [] AsalCarpanlar(int n)
+    {
     string carpanListesi = "";
     int i = 2;
     while (n>1)
@@ -53,6 +53,37 @@ public static int [] AsalCarpanlar(int n)
     for (int k = 0; k < asalCarpanlar.Length; k++)
     asalCarpanlar[k] = Convert.ToInt32(carpanlar[k]);
     return asalCarpanlar;
+
+    }
+    /// <summary>
+    /// Bir sayinin asla carpanlarının toplamını verir
+    /// </summary>
+    /// <param name="n">Sayi</param>
+    /// <returns>Toplam</returns>
+    public static int AsalCarpanlarinToplami (int n) 
+    {
+    int [] asalCarpanlar = AsalCarpanlar(n);
+    int t = 0;
+    for (int i = 0; i < asalCarpanlar.Length; i++)
     
-}
+        t+= asalCarpanlar[i];
+        return t;
+
+    }
+
+    /// <summary>
+    /// Bir sayinin asla carpanlarının carpımını verir
+    /// </summary>
+    /// <param name="n">Sayı</param>
+    /// <returns>Carpım Sonucu</returns>
+    public static int AsalCarpanlarinCarpimi (int n)
+    {
+        int c = 1;
+        int [] asalCarpanlar= AsalCarpanlar(n);
+        for (int i = 0; i < asalCarpanlar.Length; i++)
+            c *= asalCarpanlar[i];
+        return c;     
+            
+        
+    }
 }
