@@ -9,9 +9,7 @@ double s2 = Convert.ToInt32(Console.ReadLine());
 
 System.Console.WriteLine("{0}^{1} = {2}",s1,s2,Formuller.UstAlma(s1,s2));
 
-int [] asalCarpanlar = Formuller.AsalCarpanlar(32);
-for (int i = 0; i < asalCarpanlar.Length; i++)
-{
-    System.Console.WriteLine(asalCarpanlar[i]);
-}
+System.Console.WriteLine("{0} sayisinin asal carpanlarının toplamı = {1}",32,Formuller.AsalCarpanlarinToplami(32));
+
+System.Console.WriteLine("{0} sayisinin asal carpanlarının carpımı = {1}",32,Formuller.AsalCarpanlarinCarpimi(32));
 
