@@ -11,4 +11,5 @@ public class Faktoriyel
         f*=i;
         return f;              
     }
+
 }

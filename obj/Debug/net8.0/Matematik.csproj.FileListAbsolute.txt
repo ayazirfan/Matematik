@@ -12,3 +12,4 @@ c:\Users\HP\Desktop\BTK-Akademi\Matematik\obj\Debug\net8.0\refint\Matematik.dll
 c:\Users\HP\Desktop\BTK-Akademi\Matematik\obj\Debug\net8.0\Matematik.pdb
 c:\Users\HP\Desktop\BTK-Akademi\Matematik\obj\Debug\net8.0\Matematik.genruntimeconfig.cache
 c:\Users\HP\Desktop\BTK-Akademi\Matematik\obj\Debug\net8.0\ref\Matematik.dll
+c:\Users\HP\Desktop\BTK-Akademi\Matematik\obj\Debug\net8.0\Matematik.sourcelink.json
